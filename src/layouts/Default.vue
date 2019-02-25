@@ -91,6 +91,7 @@ p {
 
 .header__links {
   color: #424242;
+  display: inline-block;
   padding: 20px;
 }
 
@@ -123,11 +124,12 @@ section.has-margin {
   .header__title {
     box-sizing: border-box;
     padding: 1.5rem 2rem;
+    text-align: center;
     width: 100%;
   }
 
   .header__links {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     position: relative;
   }
 
