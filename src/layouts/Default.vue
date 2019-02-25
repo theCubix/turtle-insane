@@ -107,9 +107,12 @@ section.has-margin {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 100%;
-  /* overflow: hidden; */
   padding: 0 1em;
   width: 840px;
+}
+
+.container.has-margin-top {
+  margin-top: 3rem;
 }
 
 @media screen and (max-width: 468px) {

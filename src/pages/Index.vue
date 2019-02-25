@@ -46,10 +46,6 @@ export default {
   margin-right: 1rem;
 }
 
-.container.has-margin-top {
-  margin-top: 3em;
-}
-
 .articles {
   margin-bottom: 5em;
 }
