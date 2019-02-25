@@ -115,6 +115,36 @@ section.has-margin {
   .container {
     overflow: hidden;
   }
+
+  .header {
+    display: block;
+  }
+
+  .header__title {
+    box-sizing: border-box;
+    padding: 1.5rem 2rem;
+    width: 100%;
+  }
+
+  .header__links {
+    padding: 1rem 2rem;
+    position: relative;
+  }
+
+  .header__links:first-child {
+    margin-left: 0;
+  }
+
+  .header__links::after {
+    content: '|';
+    position: absolute;
+    right: 0;
+    opacity: .3;
+  }
+
+  .header__links:last-child::after {
+    display: none;
+  }
 }
 
 img {

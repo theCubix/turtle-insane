@@ -2,7 +2,7 @@
   <Layout>
 
     <section class="has-margin hero-wrapper">
-      <div class="center z-up flex-column-flip">
+      <div class="article__title-wrapper center z-up flex-column-flip">
         <div class="container">
           <h1 class="article__title">{{ $page.article.title }}</h1>
         </div>
@@ -189,6 +189,30 @@ export default {
 
 .quote__author::before {
   content: '– ';
+}
+
+@media screen and (max-width: 468px) {
+  .article__title-wrapper.center {
+    position: relative;
+  }
+
+  .hero-wrapper.has-margin {
+    margin-bottom: 0;
+  }
+
+  .article__title {
+    color: #212121;
+    hyphens: auto;
+    margin: 2rem 0 0 0;
+  }
+
+  .hero-wrapper::after {
+    display: none;
+  }
+
+  .article__intro {
+    margin-top: 0;
+  }
 }
 
 </style>
